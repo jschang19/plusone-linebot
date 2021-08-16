@@ -52,7 +52,7 @@ var sheet_url = 'https://docs.google.com/spreadsheets/...'
 <img src = "https://i.imgur.com/l6cnTHk.png">
 
 5. 將存取權限改為「所有人」，再按部署：
-<img src="https://i.imgur.com/pG5UFnx.png">
+<img src="https://i.imgur.com/Xff9s1n.png">
 
 6. 接著瀏覽器會出現小視窗，點按「授與存取權」：
 <img src="https://i.imgur.com/vIL8K7d.png">
