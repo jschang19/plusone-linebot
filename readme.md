@@ -41,16 +41,18 @@ var sheet_url = 'https://docs.google.com/spreadsheets/...'
 5. 將存取權限改為「所有人」，再按部署：
 <img src="https://i.imgur.com/pG5UFnx.png">
 
-接著瀏覽器會出現小視窗，點按「授與存取權」：
+6. 接著瀏覽器會出現小視窗，點按「授與存取權」：
 <img src="https://i.imgur.com/vIL8K7d.png">
 
-選取 Google 帳號後，點選左下小灰字「顯示進階設定」，並點選做下方的「前往 ***」（ 此為正常流程 ）：
+7. 選取 Google 帳號後，點選左下小灰字「顯示進階設定」，並點選做下方的「前往 ***」（ 此為正常流程 ）：
+
 <img src="https://i.imgur.com/Ocn2xNn.png">
 
-點選允許：
+8. 點選允許：
+
 <img src="https://i.imgur.com/1Fbfdrp.png">
 
-將下面的網址複製起來，貼到你的 LINE Bot Console 的 Webhook：
+9. 將下面的網址複製起來，貼到你的 LINE Bot Console 的 Webhook：
 <img src="https://i.imgur.com/PosUv29.png">
 
 
