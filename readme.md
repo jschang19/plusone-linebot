@@ -18,10 +18,10 @@ LINE 群組開團購、報名課程時，大家瘋傳加一，手動紀錄有夠
 
 ## 使用方法 How to Use
 
-將 app.js 的內容複製，貼到你的 Google App Script 專案上 :
-<img src="https://i.imgur.com/5EZeHkr.png"/>
+1. 將 app.js 的內容複製，貼到你的 Google App Script 專案上 
 
-在 CHANNEL_ACCESS_TOKEN 的引號裡填入你的 LINE API Token 權杖：
+
+2. 在 CHANNEL_ACCESS_TOKEN 的引號裡填入你的 LINE API Token 權杖：
 ```sh
 var CHANNEL_ACCESS_TOKEN = "***";
 ```
@@ -32,19 +32,26 @@ var CHANNEL_ACCESS_TOKEN = "***";
 var sheet_url = 'https://docs.google.com/spreadsheets/...'
 ```
 
-點選 App Script 網頁的部署按鈕，選擇「新增」：
+3. 點選 App Script 網頁的部署按鈕，選擇「新增」：
+<img src="https://i.imgur.com/5EZeHkr.png">
 
-種類設定為「網路應用程式」：
+4. 種類設定為「網路應用程式」：
+<img src = "https://i.imgur.com/l6cnTHk.png">
 
-將存取權限改為「所有人」，再按部署：
+5. 將存取權限改為「所有人」，再按部署：
+<img src="https://i.imgur.com/pG5UFnx.png">
 
 接著瀏覽器會出現小視窗，點按「授與存取權」：
+<img src="https://i.imgur.com/vIL8K7d.png">
 
 選取 Google 帳號後，點選左下小灰字「顯示進階設定」，並點選做下方的「前往 ***」（ 此為正常流程 ）：
+<img src="https://i.imgur.com/Ocn2xNn.png">
 
 點選允許：
+<img src="https://i.imgur.com/1Fbfdrp.png">
 
 將下面的網址複製起來，貼到你的 LINE Bot Console 的 Webhook：
+<img src="https://i.imgur.com/PosUv29.png">
 
 
 ## 客製化 Customization 
@@ -57,7 +64,7 @@ var sheet_url = 'https://docs.google.com/spreadsheets/...'
 userMessage    | 使用者傳送的文字訊息內容 | string format
 user_id    | 使用者的 ID 字串 | 搭配第五十行的 User Info API，查詢使用者名稱 
 sheet_name  | Google Sheet 的工作表名稱 | 請填入正確名稱。否則會抓不到
-reserve_list | 工作表的全部資料 | 還沒想到
+reserve_list | 工作表的全部資料 | 可以自訂修改，但要用 ctrl + F 全部修改
 current_list_row | 資料表的最大行數（ 最後一筆資料的行數 ） | .getLastRow() 語法
 reply_message | 要回傳給使用者的訊息內容 | JSON Format，**請勿直接填入訊息文字**，請參考 LINE 官方的 API 文件
 current_hour | 判斷使用者呼叫機器人的時間（ 取小時 ）| "HH" 是小時格式，請爬文「App Script get current time 」
@@ -82,7 +89,7 @@ reply_message = [
 ## License
 
 Apache 2.0
-Please credit me ( Chun Shawn jcshawn.com ) if using the code to your own project.
+**Please credit me ( Chun Shawn jcshawn.com ) if using the code to your own project.**
 
 > Be the pebble that creates ripple of the change. -Tim Cook
 
