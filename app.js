@@ -84,7 +84,7 @@ function doPost(e) {
   };
 
 
-  if (userMessage == "+1" | userMessage == "加一" | userMessage == "＋1") {
+  if (userMessage == "+1" | userMessage == "加一" | userMessage == "＋1" | userMessage == "十1") {
     if (current_hour >= 0 & current_hour <= 19 | current_hour >= 21) {
       if (current_list_row < maxium_member) {
         reserve_list.getRange(current_list_row + 1, 1).setValue(reserve_name);
@@ -124,7 +124,7 @@ function doPost(e) {
 
   }
 
-  else if (userMessage == "+2" | userMessage == "加二") {
+  else if (userMessage == "+2" | userMessage == "加二" | userMessage == "十2") {
 
     if (current_hour >= 0 & current_hour <= 19) {
       if (current_list_row < maxium_member) {
