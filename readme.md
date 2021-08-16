@@ -16,6 +16,19 @@ LINE 群組開團購、報名課程時，大家瘋傳加一，手動紀錄有夠
 - 支援候補名額與自動替補
 - 使用 Google App Script 語法開發
 
+## 實機測試 Demo
+這是課程的群組截圖，群組只要有人傳 +1，機器人會自動記錄，並回傳告知報名成功與剩下多少名額：
+
+<img src ="https://i2.wp.com/jcshawn.com/wp-content/uploads/2021/08/%E6%88%AA%E5%9C%96-2021-08-16-%E4%B8%8A%E5%8D%8811.51.02.png?w=375&ssl=1">
+
+傳指定關鍵字「名單」就能讓機器人傳送完整的報名名單：
+
+<img src="https://i0.wp.com/jcshawn.com/wp-content/uploads/2021/08/%E6%88%AA%E5%9C%96-2021-08-16-%E4%B8%8A%E5%8D%8811.50.51.png?w=374&ssl=1">
+
+資料都是暫存在 Google 試算表裡，不用另建伺服器或資料庫：
+
+<img src = "https://i2.wp.com/jcshawn.com/wp-content/uploads/2021/08/%E6%88%AA%E5%9C%96-2021-08-16-%E4%B8%8B%E5%8D%8812.04.04.png?w=900&ssl=1">
+
 ## 使用方法 How to Use
 
 1. 將 app.js 的內容複製，貼到你的 Google App Script 專案上 
