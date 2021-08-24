@@ -88,10 +88,10 @@ current_hour | 判斷使用者呼叫機器人的時間（ 取小時 ）| "HH" �
 reply_message 必須是一個 JSON 格式的內容，以文字訊息為例，格式如下：
 
 ```sh
-reply_message = [
+reply_message = [{
     "type":"text", // 除非是最後一句，每一句後面要加逗號
     "text":"引號內打要回傳的文字"
-]
+}]
 ```
 
 圖片、貼圖、選單、和 Flex Message 圖文格式也是可以用的，詳情請到 LINE 官方 API 文件查看。
