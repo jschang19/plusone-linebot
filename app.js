@@ -62,7 +62,7 @@ function doPost(e) {
     var response = UrlFetchApp.fetch(nameurl, {
       "method": "GET",
       "headers": {
-        "Authorization": "Bearer {put your token here, and remove the brackets}", // remember to add your token here.
+        "Authorization": "Bearer " + CHANNEL_ACCESS_TOKEN,
         "Content-Type": "application/json"
       },
     });
