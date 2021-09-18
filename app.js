@@ -62,7 +62,7 @@ function doPost(e) {
     var response = UrlFetchApp.fetch(nameurl, {
       "method": "GET",
       "headers": {
-        "Authorization": "Bearer Tk3ybTISjPpsOVGlAZn44pxdgJrMj78n36zdcgTRAOBD+ej+xLpWbsVgVG0YQBkmlGc7rx6WgAK9+vUvYIXeL6qlXbudh3bp3QMqJox8Ui1y9OULSTKo4ny+mXyz2oraMuYO7uvfkWAoK+1h8czH+QdB04t89/1O/w1cDnyilFU=",
+        "Authorization": "Bearer {put your token here, and remove the brackets}", // remember to add your token here.
         "Content-Type": "application/json"
       },
     });
