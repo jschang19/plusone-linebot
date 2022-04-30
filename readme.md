@@ -106,8 +106,8 @@ reply_message = [{
 - [How to get the current time in Google spreadsheet using script editor?](https://stackoverflow.com/questions/10182020/how-to-get-the-current-time-in-google-spreadsheet-using-script-editor)
 ## License
 
-Apache 2.0
-**Please credit me ( Chun Shawn jcshawn.com ) if using the code to your own project.**
+MIT License
+歡迎自行運用此份專案於商業與個人用途，如果你願意標記我為出處的話，將對我是莫大的鼓勵，感謝！
+Feel free to fork this project and use it for your own work. However, it would be great if you credit me.
 
-> Be the pebble that creates ripple of the change. -Tim Cook
 
